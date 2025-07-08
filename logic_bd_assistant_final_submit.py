@@ -197,3 +197,4 @@ ROADMAP:
 b64 = base64.b64encode(summary.encode()).decode()
 href = f'<a href="data:file/txt;base64,{b64}" download="project_summary.txt">Download Project Summary</a>'
 st.markdown(href, unsafe_allow_html=True)
+st.image("https://logic-consulting.com/wp-content/uploads/2021/03/logo-header.png", width=200)
